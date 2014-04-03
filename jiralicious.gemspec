@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.email = "jstewart@fusionary.com"
   s.authors = ["Jason Stewart"]
   s.add_runtime_dependency 'crack'
-  s.add_runtime_dependency 'httparty', '>= 0.10'
+  s.add_runtime_dependency 'httparty', '~> 0.11'
   s.add_runtime_dependency 'hashie'
   s.add_runtime_dependency 'json'
   s.add_development_dependency 'rspec', '~> 2.6'
